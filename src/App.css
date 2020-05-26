@@ -1,0 +1,123 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(244, 244, 244);
+  color: #333;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+small {
+  font-size: 1.2rem;
+}
+
+.titleBar {
+  margin-bottom: 40px;
+  background-color: #0a0a0a;
+}
+
+.title {
+  font-size: 4.4rem;
+  color: #f5f5f7;
+  margin: 0;
+  padding: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-box {
+  display: flex;
+  background-color: #fff;
+  font-size: 1.6rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.input {
+  width: 99%;
+  border: none;
+}
+
+input:focus {
+  outline: 0;
+}
+
+.search-button {
+  opacity: 0.5;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card {
+  padding: 2rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2.4rem;
+  background-color: white;
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+  font-size: 4rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  color: #06c;
+}
+
+.btn:hover {
+  color: #06c;
+  text-decoration: underline;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
